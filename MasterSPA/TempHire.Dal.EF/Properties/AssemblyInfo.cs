@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TempHire.DomainModel")]
+[assembly: AssemblyTitle("TempHire.Dal.EF")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TempHire.DomainModel")]
+[assembly: AssemblyProduct("TempHire.Dal.EF")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("87badcd4-96d9-45fd-90ad-5a7b49ef0825")]
+[assembly: Guid("df184a3d-137c-41ef-8851-83147cb553a7")]
 
 // Version information for an assembly consists of the following four values:
 //

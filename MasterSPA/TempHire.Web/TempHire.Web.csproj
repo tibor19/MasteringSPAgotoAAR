@@ -166,7 +166,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\TempHireDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -284,11 +283,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TempHire.Dal.EF\TempHire.Dal.EF.csproj">
+      <Project>{c4e6f842-d94a-4e56-89ec-973221173ae4}</Project>
+      <Name>TempHire.Dal.EF</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TempHire.DomainModel\TempHire.DomainModel.csproj">
       <Project>{cdf78492-a29f-4b90-9648-d7bdf76c862c}</Project>
       <Name>TempHire.DomainModel</Name>

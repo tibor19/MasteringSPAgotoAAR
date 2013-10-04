@@ -9,13 +9,13 @@ using System.Net.Http;
 using System.Web;
 using System.Web.Http;
 using TempHire.DomainModel;
-using TempHire.Web.Models;
+using TempHire.Dal.EF;
 
 namespace TempHire.Web.Controllers
 {
     public class ATController : ApiController
     {
-        private readonly TempHireDBContext _context = new TempHireDBContext();
+        private readonly TempHireDbContext _context = new TempHireDbContext();
 
         // GET api/AT
         public IEnumerable<AddressType> GetAddressTypes()
